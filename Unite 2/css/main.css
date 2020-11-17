@@ -1,0 +1,98 @@
+@font-face {
+    font-family: CAMPUS;
+    src: url(../fonts/CAMPUS.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:slategray;
+
+}
+
+main {
+    font-family: CAMPUS, serif;
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+    background-color:darkorange;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 0 10px 1px black;
+}
+
+.photo {
+    width: calc(50% - 40px);
+    height: calc((35vw - 40px) / 16 * 9);
+    margin: 20px;
+    background-color: darkorchid;
+    background-size: cover;
+    box-shadow: 0 0 25px 1px black;
+}
+
+.left:hover {
+    transform: rotate(-3deg) scale(1.07);
+}
+
+.right:hover {
+    transform: rotate(3deg) scale(1.07);
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: #1a73e8;
+}
+
+.photo1{
+    background-image: url("../img/img1.jpg");
+    background-size: contain;
+}
+
+.photo2{
+    background-image: url("../img/img2.jpg");
+}
+.photo3{
+    background-image: url("../img/img3.jpeg");
+}
+
+.photo4{
+    background-image: url("../img/img4.jpg");
+}
+.photo5{
+    background-image: url("../img/img5.jpg");
+}
+
+.photo6{
+    background-image: url("../img/img6.jpg");
+}
+
+.photo7{
+    background-image: url("../img/img7.jpg");
+}
+
+.photo8{
+    background-image: url("../img/img8.jpg");
+}
+
+.photo9{
+    background-image: url("../img/img9.jpg");
+}
+
+.photo10{
+    background-image: url("../img/img10.jpg");
+}
+.photo11{
+    background-image: url("../img/img11.jpg");
+}
+.photo12{
+    background-image: url("../img/img12.jpg");
+    background-size: 100% 100%;
+}
+
